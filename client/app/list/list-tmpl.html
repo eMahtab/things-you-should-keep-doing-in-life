@@ -1,0 +1,17 @@
+<br/><br/>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+        <div ng-repeat="item in tenThings">
+
+            <a ui-sref="detail({itemId:tenThings.indexOf(item)})">
+            <p style="font-size:40px;"><b>{{$index + 1}}.</b></p>
+            <img class="img-rounded" style="float:right" height="200" width="200"
+                 ng-src="assets/images/{{item.imageName}}.jpg" alt="Photo of {{item.imageName}}"/>
+            <h3><code>{{item.name}}</code></h3>
+            <p ><b>{{item.summary}}</b></p>
+            </a>
+
+        <br/><br/> <br/><br/> <br/><br/>
+        </div>
+  </div>
+</div>
