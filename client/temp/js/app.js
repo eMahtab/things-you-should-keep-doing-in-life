@@ -49,9 +49,7 @@
 
 	var ngModule=angular.module('thingsTodo',['ui.router']);
 
-
 	__webpack_require__(4)(ngModule);
-	__webpack_require__(5)(ngModule);
 	__webpack_require__(7)(ngModule);
 
 
@@ -36452,40 +36450,16 @@
 
 /***/ },
 /* 4 */
-/***/ function(module, exports) {
-
-	module.exports=function(ngModule){
-
-	  ngModule.config(function($stateProvider, $urlRouterProvider) {
-	      $urlRouterProvider.otherwise('/list');
-
-	      $stateProvider
-	          .state('list', {
-	              url: '/list',
-	              templateUrl: 'app/list/list-tmpl.html',
-	              controller:'ListController'
-	          })
-	          .state('detail', {
-	            url: '/detail/:itemId',
-	            templateUrl: 'app/detail/detail-tmpl.html',
-	            controller:'DetailController'
-	          });
-	  });
-
-	}
-
-
-/***/ },
-/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports=function(ngModule){
+	    __webpack_require__(5)(ngModule);
 	    __webpack_require__(6)(ngModule);
 	};
 
 
 /***/ },
-/* 6 */
+/* 5 */
 /***/ function(module, exports) {
 
 	module.exports=function(ngModule){
@@ -36502,12 +36476,33 @@
 
 
 /***/ },
+/* 6 */
+/***/ function(module, exports) {
+
+	module.exports=function(ngModule){
+
+	  ngModule.config(function($stateProvider, $urlRouterProvider) {
+	      $urlRouterProvider.otherwise('/list');
+
+	      $stateProvider
+	          .state('list', {
+	              url: '/list',
+	              templateUrl: 'app/list/list-tmpl.html',
+	              controller:'ListController'
+	          });
+	  });
+
+	}
+
+
+/***/ },
 /* 7 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports=function(ngModule){
 
 	    __webpack_require__(8)(ngModule);
+	    __webpack_require__(9)(ngModule);
 
 	};
 
@@ -36539,6 +36534,25 @@
 	});
 
 	};
+
+
+/***/ },
+/* 9 */
+/***/ function(module, exports) {
+
+	module.exports=function(ngModule){
+
+	  ngModule.config(function($stateProvider, $urlRouterProvider) {
+
+	    $stateProvider
+	          .state('detail', {
+	            url: '/detail/:itemId',
+	            templateUrl: 'app/detail/detail-tmpl.html',
+	            controller:'DetailController'
+	          });
+	  });
+
+	}
 
 
 /***/ }
