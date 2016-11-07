@@ -5,7 +5,7 @@ module.exports=function(ngModule){
     $stateProvider
           .state('detail', {
             url: '/detail/:itemId',
-            templateUrl: 'app/detail/detail-tmpl.html',
+            templateUrl: 'app/templates/detail-tmpl.html',
             controller:'DetailController'
           });
   });

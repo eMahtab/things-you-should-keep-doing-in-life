@@ -1,0 +1,26 @@
+<br/>
+<div class="row">
+   <div class="col-md-offset-4 col-md-3">
+     <a ui-sref="detail({ itemId: prevItem})"  class="btn btn-left"><b>&lt;&lt;&nbsp;Previous</b></a>
+   </div>
+   <div class="col-md-2">
+       <a  ui-sref="detail({ itemId: nextItem})"  class="btn btn-right"><b>Next&nbsp;&gt;&gt;</b></a>
+   </div>
+</div>
+
+<div>
+       <h1 align="center">
+       <code><b>{{whichItem*1+1}}. {{tenThings[whichItem].name}}</b></code>
+       </h1><br/>
+       <div class="row">
+           <div class="col-md-6">
+             <img height="360" width="640" ng-src="assets/images/{{tenThings[whichItem].imageName}}.jpg"
+                  alt="Photo of {{tenThings[whichItem].name}}">
+           </div>
+           <div class="col-md-offset-1 col-md-4"><h3>{{tenThings[whichItem].description}}</h3></div>
+       </div>
+</div>
+
+<br/><br/>
+
+<h4 align="center"><a ui-sref="list">&laquo; Back to main page</a></h4>

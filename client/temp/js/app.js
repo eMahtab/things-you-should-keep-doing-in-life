@@ -36487,7 +36487,7 @@
 	      $stateProvider
 	          .state('list', {
 	              url: '/list',
-	              templateUrl: 'app/list/list-tmpl.html',
+	              templateUrl: 'app/templates/list-tmpl.html',
 	              controller:'ListController'
 	          });
 	  });
@@ -36547,7 +36547,7 @@
 	    $stateProvider
 	          .state('detail', {
 	            url: '/detail/:itemId',
-	            templateUrl: 'app/detail/detail-tmpl.html',
+	            templateUrl: 'app/templates/detail-tmpl.html',
 	            controller:'DetailController'
 	          });
 	  });

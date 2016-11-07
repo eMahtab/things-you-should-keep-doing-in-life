@@ -6,7 +6,7 @@ module.exports=function(ngModule){
       $stateProvider
           .state('list', {
               url: '/list',
-              templateUrl: 'app/list/list-tmpl.html',
+              templateUrl: 'app/templates/list-tmpl.html',
               controller:'ListController'
           });
   });
