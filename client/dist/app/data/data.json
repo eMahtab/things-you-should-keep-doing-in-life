@@ -1,0 +1,71 @@
+[
+  {
+    "name":"Learn a foreign language",
+    "imageName":"learn-foreign-language",
+    "summary":"Your ability to speak a foreign language can really make you stand out from others",      
+    "description":"Learning a new language can really change your life and the way you see the world. But learning a language other than your mother tounge is not easy, it requires a lot of effort and sometimes brings a lot of frustration. Don't learn a new language just for career purpose or to impress someone with your spanish, learn it to understand the culture and people."
+  },
+    
+  {
+    "name":"Swim in the ocean",
+    "imageName":"swim-in-ocean",
+    "summary":"Ever wondered how it feels to swim in an ocean",   
+    "description":"Swimming in the ocean is not for faint-hearted. It requires lot of courage to do so. Its one of very unique experience that only be felt, can't be expressed in words. If you think you have the guts then give it a try, you will never regret."
+  },
+    
+  {
+    "name":"Go on a pilgrimage",
+    "imageName":"go-to-pilgrimage",
+    "summary":"There is no better way to regain your spiritual strength than going to pilgrimage",
+    "description":"Pilgrimage gives us the chance to re-energise mentally, physically and spiritually.Often, people go on pilgrimage when they are at a crossroads in their lives, when undergoing a change in their life’s direction or relationships.Going on a pilgrimage is a great way to heal our soul."
+  },
+    
+  {
+    "name":"Take a random city tour",
+    "imageName":"random-city-tour",
+    "summary":"Do you think you have explored every corner of the city, if not then a take a random city                      tour",
+    "description":"So you are sad and trying to figure out how to change the mood.How about going for a random trip around the city and exploring the hidden corners of the city that you still haven't discovered.Believe me its one of the great ways to change a boring day into an eventful one."
+  },
+    
+  {
+    "name":"Go for an adventure",
+    "imageName":"go-for-adventure",
+    "summary":"Going for an adventure is a great way to rejuvenate and get back on the track",
+    "description":"If heights and long sea waves doesn't scare you then adventure is the way to go.Be it bungee jumping, paragliding, skydiving, jet-skiing, climbing mountains or horse riding. I'm not sure whether horse riding is considered as adventure or not."
+  },
+    
+  {
+    "name":"Have coffee with friends",
+    "imageName":"coffee-with-friends",
+    "summary":"There is nothing much better than having coffee with friends and it tastes good with friends",
+    "description":"If you are caffeine addict like me, then you must admit that it have some magic.I don't know if there is any better way to enjoy the evening then calling your friends over coffee. No matter which part of the world you live, coffee is loved all around the world."
+  },
+    
+  {
+    "name":"Help Others",
+    "imageName":"help-others",
+    "summary":"Never miss an opportunity to help someone who is in need",
+    "description":"Never miss an opportunity to help someone.There is an old saying \" When you are helping someone, you are actually helping yourself.\" Whether you are helping with your wealth or your knowledge, it will definately make you a better person. And never tell someone else that you helped so and so, keep it secret that's the real joy of giving. "
+  },
+    
+  {
+    "name":"Tell your parents you love them",
+    "imageName":"love-your-parents",
+    "summary":"When was the last time you told your parents that you love them very much",
+    "description":"At times we forget our parents or don't give them the attention that they deserve. If you haven't told your parents how much you love them, then do it right now. They will love it."
+  },
+    
+  {
+    "name":"Take Risks",
+    "imageName":"take-risks",
+    "summary":"Taking risks is the only way to get out of your fears and live to your full potential",
+    "description":"Many a times the only difference between a doer and an achiever is the courage to take risks. Those who don't take risks always play the defensive game, but if you keep playing the defensive game you are actually saying no to possibilities.By the way taking risk does not mean walking on a rope stretched between mountains."
+  },
+    
+  {
+    "name":"Quit the job you hate",
+    "imageName":"quit-job-you-hate",
+    "summary":"If your job doesn't excites you then try to leave it as soon as possible",
+    "description":"Life is just too short for doing a job that you really don't like. If you are doing a job that doesn't excites you then try to leave it as soon as possible.There is nothing great in not living to your full potential.People rarely succeed unless they love what they are doing."
+  }
+]
